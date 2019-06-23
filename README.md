@@ -7,7 +7,7 @@ run
 
 then run
 
-```java -jar target/dahbashinotes-0.0.1-SNAPSHOT.jar```
+```java -jar target/notes-0.0.1-SNAPSHOT.jar```
 
 then fire up CURL
 
