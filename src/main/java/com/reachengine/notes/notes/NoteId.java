@@ -1,8 +1,6 @@
-package com.reachengine.dahbashinotes.notes;
+package com.reachengine.notes.notes;
 
-import com.reachengine.dahbashinotes.common.Id;
-
-import java.io.Serializable;
+import com.reachengine.notes.common.Id;
 
 public class NoteId implements Id<Integer> {
 

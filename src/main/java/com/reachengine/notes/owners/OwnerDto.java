@@ -1,4 +1,4 @@
-package com.reachengine.dahbashinotes.owners;
+package com.reachengine.notes.owners;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Null;

@@ -1,6 +1,6 @@
-package com.reachengine.dahbashinotes.owners;
+package com.reachengine.notes.owners;
 
-import com.reachengine.dahbashinotes.common.Entity;
+import com.reachengine.notes.common.Entity;
 
 import java.time.LocalDateTime;
 

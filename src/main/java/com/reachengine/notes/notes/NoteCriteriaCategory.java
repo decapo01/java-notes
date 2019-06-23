@@ -1,4 +1,4 @@
-package com.reachengine.dahbashinotes.notes;
+package com.reachengine.notes.notes;
 
 public enum NoteCriteriaCategory {
 

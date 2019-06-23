@@ -1,30 +1,25 @@
-package com.reachengine.dahbashinotes.notes;
+package com.reachengine.notes.notes;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.reachengine.dahbashinotes.common.LocalDateTimeProvider;
-import com.reachengine.dahbashinotes.owners.OwnerRepo;
-import com.sun.org.apache.xpath.internal.operations.Mod;
+import com.reachengine.notes.common.LocalDateTimeProvider;
+import com.reachengine.notes.owners.OwnerRepo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.ResultMatcher;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import javax.inject.Inject;
 import java.time.LocalDateTime;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Optional;
 
 import static net.bytebuddy.matcher.ElementMatchers.is;
-import static org.springframework.test.web.client.match.MockRestRequestMatchers.content;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.jsonPath;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

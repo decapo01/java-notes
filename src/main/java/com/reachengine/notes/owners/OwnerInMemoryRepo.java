@@ -1,10 +1,9 @@
-package com.reachengine.dahbashinotes.owners;
+package com.reachengine.notes.owners;
 
-import com.reachengine.dahbashinotes.common.AbstractInMemRepo;
+import com.reachengine.notes.common.AbstractInMemRepo;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 

@@ -1,4 +1,4 @@
-package com.reachengine.dahbashinotes.common;
+package com.reachengine.notes.common;
 
 public interface Entity<ID extends Id> {
 

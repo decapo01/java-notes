@@ -1,6 +1,6 @@
-package com.reachengine.dahbashinotes.owners;
+package com.reachengine.notes.owners;
 
-import com.reachengine.dahbashinotes.common.Criteria;
+import com.reachengine.notes.common.Criteria;
 
 public class OwnerCriteria implements Criteria {
 

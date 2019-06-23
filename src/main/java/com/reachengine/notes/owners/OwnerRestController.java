@@ -1,7 +1,7 @@
-package com.reachengine.dahbashinotes.owners;
+package com.reachengine.notes.owners;
 
 
-import com.reachengine.dahbashinotes.common.LocalDateTimeProvider;
+import com.reachengine.notes.common.LocalDateTimeProvider;
 import org.springframework.web.bind.annotation.*;
 
 import javax.inject.Inject;

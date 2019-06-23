@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.reachengine</groupId>
-    <artifactId>dahbashinotes</artifactId>
+    <artifactId>notes</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dahbashinotes</name>
+    <name>notes</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

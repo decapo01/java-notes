@@ -1,14 +1,13 @@
-package com.reachengine.dahbashinotes.notes;
+package com.reachengine.notes.notes;
 
 
-import com.reachengine.dahbashinotes.common.LocalDateTimeProvider;
+import com.reachengine.notes.common.LocalDateTimeProvider;
 import org.springframework.web.bind.annotation.*;
 
 import javax.inject.Inject;
 import javax.validation.Valid;
 import javax.ws.rs.NotFoundException;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 

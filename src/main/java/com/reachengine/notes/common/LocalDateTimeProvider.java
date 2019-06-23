@@ -1,6 +1,5 @@
-package com.reachengine.dahbashinotes.common;
+package com.reachengine.notes.common;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 

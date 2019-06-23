@@ -1,6 +1,5 @@
-package com.reachengine.dahbashinotes.common;
+package com.reachengine.notes.common;
 
-import javax.swing.text.html.Option;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

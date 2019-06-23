@@ -1,6 +1,6 @@
-package com.reachengine.dahbashinotes.owners;
+package com.reachengine.notes.owners;
 
-import com.reachengine.dahbashinotes.common.Id;
+import com.reachengine.notes.common.Id;
 
 public class OwnerId implements Id<Integer> {
 

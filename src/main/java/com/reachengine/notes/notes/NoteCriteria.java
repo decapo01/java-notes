@@ -1,6 +1,6 @@
-package com.reachengine.dahbashinotes.notes;
+package com.reachengine.notes.notes;
 
-import com.reachengine.dahbashinotes.common.Criteria;
+import com.reachengine.notes.common.Criteria;
 
 public class NoteCriteria implements Criteria {
 
