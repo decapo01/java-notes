@@ -2,6 +2,10 @@
 
 clone repo
 
+```git clone https://github.com/decapo01/notes.git```
+
+```cd notes```
+
 run 
 ```mvn package```
 
@@ -17,4 +21,4 @@ then fire up CURL
 
 ```curl -i -H "Content-Type: application/json" -X GET http://localhost:8080/api/notes```
 
-```curl -i -H "Content-Type: application/json" -X GET http://localhost:8080/api/notes?query=mil```
+```curl -i -H "Content-Type: application/json" -X GET 'http://localhost:8080/api/notes?query=mil'```
